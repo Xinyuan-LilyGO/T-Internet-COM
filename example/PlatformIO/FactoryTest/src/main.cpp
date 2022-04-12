@@ -222,13 +222,13 @@ void setup()
   pinMode(ETH_POWER_PIN, OUTPUT);
   digitalWrite(ETH_POWER_PIN, 1);
 
-  xTaskCreatePinnedToCore(WIFI_test, "Task1", 1024 * 20, NULL, 2, NULL, 0);
-  xTaskCreatePinnedToCore(LED_test, "Task2", 1024, NULL, 2, NULL, 0);
+  // xTaskCreatePinnedToCore(WIFI_test, "Task1", 1024 * 20, NULL, 2, NULL, 0);
+  // xTaskCreatePinnedToCore(LED_test, "Task2", 1024, NULL, 2, NULL, 0);
 
-  PCIEInit();
-  SD_test();
-  ETH_test();
+  // PCIEInit();
+  // SD_test();
   WiFi.onEvent(WiFiEvent);
+  ETH_test();
 }
 
 void loop()
