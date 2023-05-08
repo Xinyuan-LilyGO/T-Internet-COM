@@ -2,5 +2,5 @@
 
 2. Set according to the picture 
 
-    ![](./1.png)    
-    ![](./2.png)
+    ![](./esp32-1.png)    
+    ![](./esp32-2.png)
