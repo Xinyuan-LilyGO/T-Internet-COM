@@ -9,9 +9,9 @@
 
 <h3 align = "left">Product 📷:</h3>
 
-|  Product |  Product Link |
-| :--------: | :---------: |
-| T-Internet-COM |  [AliExpress](https://www.aliexpress.com/item/1005003547423153.html)   |
+|    Product     |                            Product Link                             |
+| :------------: | :-----------------------------------------------------------------: |
+| T-Internet-COM | [AliExpress](https://www.aliexpress.com/item/1005003547423153.html) |
 
 
 #  Quick Start
@@ -28,4 +28,10 @@
 
 > ESP-IDF:
 > - The installation method is also inconsistent depending on the system, it is recommended to refer to the [official manual](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) for installation
+
+
+# ESP-IDF Example
+
+The [ESP-IDF](./example/ESP-IDF/) example is only experimental, it is unstable, LilyGo cannot provide technical support for the software, please submit an issue in [esp-idf](https://github.com/espressif/esp-idf)
+
 
